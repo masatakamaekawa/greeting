@@ -1,5 +1,6 @@
 <?php
 
+use GuzzleHttp\Psr7\Message;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('comments/{message}', [App\Http\Controllers\HelloController::class, 'hello']);
