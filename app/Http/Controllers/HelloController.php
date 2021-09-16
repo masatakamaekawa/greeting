@@ -32,10 +32,10 @@ class HelloController extends Controller
     public function word($freeword)
     {   
         $word='自由なメッセージ';
-        ($freeword == 'freeword'){
+        ($freeword == 'word'){
             $freeword = $word;
         }
-        return view('greeting.freeword',['freeword'=>$freeword, 'word'=>$word,'自由なメッセージ'=>$自由なメッセージ]);
+        return view('greeting.freeword',['word'=>$word]);
     }
 
     public function random()
