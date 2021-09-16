@@ -31,10 +31,6 @@ class HelloController extends Controller
 
     public function word($freeword)
     {   
-        $word='自由なメッセージ';
-        ($freeword == 'word'){
-            $freeword = $word;
-        }
         return view('greeting.freeword',['word'=>$word]);
     }
 
