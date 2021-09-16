@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>{{ $word3 }}</h1>
+    <h1>{{ $word }}</h1>
     <h2>{{ $random }}</h2>
 </body>
 
