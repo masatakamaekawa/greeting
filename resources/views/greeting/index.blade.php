@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <h1>朝のあいさつ</h1>
+    <h1>{{ $word }}</h1>
     <h2>{{ $message }}</h2>
 
 </body>
